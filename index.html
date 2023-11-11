@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Checkout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"rel="stylesheet"/>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div class="cpage">
+        <nav class="navbar">
+            <img class="logo" src="coffee_masters_logo.png"/>
+            <h3 class="title">Coffee Masters</h3>
+        </nav>
+        
+        <div class="cdetails">
+            <div class="items-container">
+                <h4 class="cheading">ITEMS</h4>
+                <div class="item">
+                    <h4 class="food-qty">1X</h4>
+                    <div class="subitem">
+                        <h4 class="food-name">Cappucino</h4>
+                        <h4 class="food-req">Light Foam</h4>
+                    </div>
+                    <h4 class="amt">$6.00</h4>
+                </div>
+                <div class="item">
+                    <h4 class="food-qty">1X</h4>
+                    <div class="subitem">
+                        <h4 class="food-name">Cappucino</h4>
+                        <h4 class="food-req">Almond milk</h4>
+                        <h4 class="food-req">Double Espresso Shot</h4>
+                    </div>
+                    <h4 class="amt">$7.90</h4>
+                </div>
+
+                <div class="item">
+                    <h4 class="food-qty">1X</h4>
+                    <div class="subitem">
+                        <h4 class="food-name">Croissant</h4>
+                        <h4 class="food-req">Butter</h4>
+                    </div>
+                    <h4 class="amt">$5.37</h4>
+                </div>
+            </div>
+            <div class="container">
+                <div class="namebox">
+                    <h4 class="cheading">NAME</h4>
+                    <div class="outside-container">
+                        <label class="input-label">Name for order</label>
+                        <input type="text"  class="name-input">
+                    </div>
+                    
+                </div>
+                <div class="paymentbox">
+                    <h4 class="cheading">PAYMENT</h4>
+                    <div class="outside-container">
+                        <label class="input-label">Card Number</label>
+                        <input type="text"  class="text-box">
+                    </div>
+                    <div class="outside-container">
+                        <label class="input-label">CVV Number</label>
+                        <input type="text" class="text-box cvv">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="bill">
+            <div class="bill-arrange">
+                <label>Subtotal: </label>
+                <label>$19.27</label>
+            </div>
+            <div class="bill-arrange">
+                <label>Tax: </label>
+                <label>$0.96</label>
+            </div>
+
+            <div class="bill-arrange">
+                <label class="bold">Total: </label>
+                <label class="bold">$20.23</label>
+            </div>
+            
+        </div>
+        <div class="order-button">
+            <button class="btn">Place Order</button>
+        </div>
+        
+
+    </div>
+</body>
+</html>
